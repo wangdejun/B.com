@@ -1,0 +1,84 @@
+<html>
+<meta charset = "UTF-8">
+<head>
+	<title>topfixed</title>
+</head>
+
+<style type="text/css">
+	body{top:70px;position: absolute; left: 0;width: 100%;height:1000px;
+		background-color: #ccc;}
+
+	.topbar{position: fixed;top:0;width:100%;left: 0;
+		height: 40px;background-color:#D0104C;opacity:1;}
+
+	.topbar ul li{display: inline-block;line-height: 40px;width:80px;
+		text-align: center;cursor: pointer;vertical-align: middle;}
+
+	.sites{height: 100%;margin-left: 0;width: 400px;
+		position: relative;
+		font-family:"Microsoft YaHei";font-size:16px;
+		color:white;}
+
+	.login{right: 10px;
+		height: 100%;position: relative;
+		font-family:"Microsoft YaHei";font-size:16px;
+			color:black;}
+
+	.secondbar{background-color: #006284;left: 0;
+		height:30px;position: fixed; top:40px;width: 100%;
+		font-family:"Microsoft YaHei";font-size:16px;
+			color:black;}
+
+	.secondbar ul li{display: inline-block;line-height: 30px;width:80px;
+		text-align: center;cursor: pointer;vertical-align: middle;}
+
+	.main{height: 2000px;width:100%;
+		left: 0;
+		background-color: #F4A7B9;
+		margin:auto;}
+
+	.footer{position: fixed;height: 40px;width:100%;left: 0;
+
+		bottom:0;background-color:#ADA142;
+		font-family:"Microsoft YaHei";font-size:16px;
+			color:white;}
+
+	.footer li{display: inline-block;line-height: 40px;width:80px;
+		margin:auto;
+		text-align: center;cursor: pointer;vertical-align: middle;}
+</style>
+<body>
+	<div class ="topbar">
+		<ul class = "sites">
+			<li>主站</li>
+			<li>画友</li>
+			<li>游戏中心</li>
+			<li>直播</li>
+		</ul>
+		<ul class="login">
+			<li>登录</li>
+			<li>投稿 </li>
+		</ul>
+	</div>
+	<div class ="secondbar">
+		<ul>
+			<li>首页</li>
+			<li>动画</li>
+			<li>番剧</li>
+			<li>音乐</li>
+			<li>舞蹈</li>
+			<li>游戏</li>
+		</ul>
+	</div>
+	<div class = "main">
+	</div>
+
+	<div class = "footer">
+		<li>联系我们&nbsp&nbsp</li>
+		<li>法人代表&nbsp&nbsp</li>
+		<li>公司地址&nbsp&nbsp</li>
+		<li>诚聘英才&nbsp&nbsp</li>
+		<li>WordPress </li>
+	</div>
+</body>
+</html>
