@@ -5,41 +5,57 @@
 </head>
 
 <style type="text/css">
-	body{top:70px;position: absolute; left: 0;width: 100%;height:1000px;
-		background-color: #ccc;}
+	body{top:73px;left: 0;width: 100%;height:1000px;
+        background-color: #ccc;
+	}
 
 	.topbar{position: fixed;top:0;width:100%;left: 0;
-		height: 40px;background-color:#D0104C;opacity:1;}
+		height: 40px;line-height:100%;
+		background-image:linear-gradient(to top,#D0104C,#EB7A77);
+		opacity:1;}
 
-	.topbar ul li{display: inline-block;line-height: 40px;width:80px;
-		text-align: center;cursor: pointer;vertical-align: middle;}
-
-	.sites{height: 100%;margin-left: 0;width: 400px;
+	.sites{height: 100%;top:10px;margin: auto;width: 400px;
 		position: relative;
-		font-family:"Microsoft YaHei";font-size:16px;
+		font-family:"Microsoft YaHei";font-size:17px;
 		color:white;}
+ 	.sites li {
+ 		background-image:radial-gradient(circle,#D0104C,red 20%,#EB7A77)
+ 		;}
 
-	.login{right: 10px;
-		height: 100%;position: relative;
+	li{ display:inline-block;line-height:100%; width:80px;
+		text-align:center;cursor: pointer;vertical-align:middle;
+
+	}
+
+	.split{background-image:repeating-linear-gradient(yellow,red 40px,green 40px,blue 40px);
+		left: 0;position: fixed; top:41px;width: 100%;
+		height:3px;
+
+	}
+	.secondbar{background-color: #006284;
+		background-image:linear-gradient(#00AA90,#006284);
+		left: 0;
+		height:30px;position: fixed; top:44px;width: 100%;
 		font-family:"Microsoft YaHei";font-size:16px;
 			color:black;}
 
-	.secondbar{background-color: #006284;left: 0;
-		height:30px;position: fixed; top:40px;width: 100%;
-		font-family:"Microsoft YaHei";font-size:16px;
-			color:black;}
+	.catgory{position: absolute; height: 30px;line-height:100%;top:0px; margin-left:5px;width:100%;margin: auto;
+		font-family:"Microsoft YaHei";font-size:15px;color:black;
+		vertical-align:middle;}
 
-	.secondbar ul li{display: inline-block;line-height: 30px;width:80px;
+	.catgory li{display: inline-block;line-height: 30px;width:80px;
+		margin:auto;
 		text-align: center;cursor: pointer;vertical-align: middle;}
 
 	.main{height: 2000px;width:100%;
-		left: 0;
+		position:absolute;top:70px;left: 0;
 		background-color: #F4A7B9;
 		margin:auto;}
 
-	.footer{position: fixed;height: 40px;width:100%;left: 0;
 
+	.footer{position: fixed;height: 40px;width:100%;left: 0;
 		bottom:0;background-color:#ADA142;
+		background-image:linear-gradient(p,#FBE251,#62592C);
 		font-family:"Microsoft YaHei";font-size:16px;
 			color:white;}
 
@@ -50,18 +66,15 @@
 <body>
 	<div class ="topbar">
 		<ul class = "sites">
-			<li>主站</li>
+			<li><a link= "www.163.com">主站</a></li>
 			<li>画友</li>
 			<li>游戏中心</li>
 			<li>直播</li>
 		</ul>
-		<ul class="login">
-			<li>登录</li>
-			<li>投稿 </li>
-		</ul>
 	</div>
+	<div class = "split"></div>
 	<div class ="secondbar">
-		<ul>
+		<ul class = "catgory">
 			<li>首页</li>
 			<li>动画</li>
 			<li>番剧</li>
@@ -72,7 +85,6 @@
 	</div>
 	<div class = "main">
 	</div>
-
 	<div class = "footer">
 		<li>联系我们&nbsp&nbsp</li>
 		<li>法人代表&nbsp&nbsp</li>
