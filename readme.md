@@ -16,3 +16,15 @@ form-inline
 checkbox<br>
 type="submit"
 class="btn btn-default"
+
+<h3>table-panel-well.html</h3>
+<hr>
+class="table-responsive"<br>
+class="table table-striped"<br>
+tr rows  td descriptions? th heads<br>
+
+class="panel panel-info"<br>
+dl dt dd<br>
+footer<br>
+blockquote<br>
+cite<br>
