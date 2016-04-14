@@ -24,7 +24,7 @@ class="table table-striped"<br>
 tr rows  td descriptions? th heads<br>
 
 class="panel panel-info"<br>
-dl dt dd<br>
+dl-description list描述列表 dt dd<br>
 footer<br>
 blockquote<br>
 cite<br>
