@@ -4,8 +4,8 @@
 
 button.html
 ---------------------------------------------------
-btn btn-primary btn-sucess btn-warning btn-danger 
-btn-block
-toolbar
-btn-group btn-group-vertical
-内嵌样式
+btn btn-primary btn-sucess btn-warning btn-danger <br>
+btn-block<br>
+toolbar<br>
+btn-group btn-group-vertical<br>
+内嵌样式<br>
